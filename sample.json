@@ -1,0 +1,94 @@
+{
+    "Title": "BIBL to BIMS",
+    "FPType": "VFR",
+    "CruisingAlt": "5000",
+    "DepartureID": "BIBL",
+    "DepartureLLA": "N65 38' 43.61\",W20 17' 14.37\",+153",
+    "DestinationID": "BIMS",
+    "DestinationLLA": "N64 10' 53.93\",W21 42' 23.43\",+18",
+    "Descr": "Blonduos to Tungubakkar Airport",
+    "DepartureName": "Blonduos",
+    "DestinationName": "Tungubakkar Airport",
+    "AppVersion": {
+        "AppVersionMajor": "11",
+        "AppVersionBuild": "282174"
+    },
+    "ATCWaypoint": [
+        {
+            "@id": "BIBL",
+            "ATCWaypointType": "Airport",
+            "WorldPosition": "N65 38' 43.61\",W20 17' 14.37\",+153",
+            "ICAO": {
+                "ICAOIdent": "BIBL"
+            },
+            "Latitude": "N65 38' 43.61\"",
+            "Longitude": "W20 17' 14.37\"",
+            "Altitude": 153.0,
+            "DecimalLatitude": 65.64544722222223,
+            "DecimalLongitude": -20.287325000000003
+        },
+        {
+            "@id": "Hvitserkur",
+            "ATCWaypointType": "User",
+            "WorldPosition": "N65 36' 22.73\",W20 38' 6.85\",+000000.00",
+            "Latitude": "N65 36' 22.73\"",
+            "Longitude": "W20 38' 6.85\"",
+            "Altitude": 0.0,
+            "DecimalLatitude": 65.60631388888888,
+            "DecimalLongitude": -20.635236111111112
+        },
+        {
+            "@id": "Myvatn",
+            "ATCWaypointType": "User",
+            "WorldPosition": "N65 36' 13.90\",W16 59' 45.98\",+000000.00",
+            "Latitude": "N65 36' 13.90\"",
+            "Longitude": "W16 59' 45.98\"",
+            "Altitude": 0.0,
+            "DecimalLatitude": 65.6038611111111,
+            "DecimalLongitude": -16.996105555555555
+        },
+        {
+            "@id": "Vatnajokull National Park",
+            "ATCWaypointType": "User",
+            "WorldPosition": "N64 47' 3.48\",W17 12' 32.79\",+000000.00",
+            "Latitude": "N64 47' 3.48\"",
+            "Longitude": "W17 12' 32.79\"",
+            "Altitude": 0.0,
+            "DecimalLatitude": 64.7843,
+            "DecimalLongitude": -17.209108333333333
+        },
+        {
+            "@id": "Landmannalaugar",
+            "ATCWaypointType": "User",
+            "WorldPosition": "N63 58' 58.80\",W19 4' 1.20\",+000000.00",
+            "Latitude": "N63 58' 58.80\"",
+            "Longitude": "W19 4' 1.20\"",
+            "Altitude": 0.0,
+            "DecimalLatitude": 63.983000000000004,
+            "DecimalLongitude": -19.067
+        },
+        {
+            "@id": "Thingvellir National Park",
+            "ATCWaypointType": "User",
+            "WorldPosition": "N64 15' 21.31\",W21 7' 46.38\",+000000.00",
+            "Latitude": "N64 15' 21.31\"",
+            "Longitude": "W21 7' 46.38\"",
+            "Altitude": 0.0,
+            "DecimalLatitude": 64.25591944444444,
+            "DecimalLongitude": -21.129550000000002
+        },
+        {
+            "@id": "BIMS",
+            "ATCWaypointType": "Airport",
+            "WorldPosition": "N65 38' 43.61\",W20 17' 14.37\",+153",
+            "ICAO": {
+                "ICAOIdent": "BIMS"
+            },
+            "Latitude": "N65 38' 43.61\"",
+            "Longitude": "W20 17' 14.37\"",
+            "Altitude": 153.0,
+            "DecimalLatitude": 65.64544722222223,
+            "DecimalLongitude": -20.287325000000003
+        }
+    ]
+}
