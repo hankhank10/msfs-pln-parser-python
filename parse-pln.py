@@ -86,7 +86,7 @@ def SaveFile(filename, pln_dictionary):
 
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'static/uploads'
+app.config['UPLOAD_FOLDER'] = 'uploads'
 app.secret_key = "adsfdgkjwrkj7778jgjjhhqyqpp98876688767ayfyyf"
 
 @app.route('/upload', methods=['GET', 'POST'])
@@ -111,7 +111,7 @@ def receive_upload():
 
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], temporary_filename))
 
-        new_route = OpenFile('/static/uploads/temporary_filename')
+        new_route = OpenFile('uploads/' + temporary_filename)
         fixed_route = FixWaypoints(new_route)
         return (jsonify(fixed_route))
 
